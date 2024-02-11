@@ -1,10 +1,19 @@
+<!-- 
+    Name: Jeel Patel
+    File: index.html
+    Date: 9 Feb 2024
+    Mozilla splash page
+-->
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width">
     <title>Mozilla splash page</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    
     <style>
       /* header and body setup */
 
@@ -101,12 +110,13 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-
+        <img src = "firefox_logo-only_RGB120.png" alt= "Small logo of firefox">
     </header>
 
     <main>
       <article>
         <!-- insert iframe from youtube -->
+          <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg"></iframe>
 
         <h2>Rocking the free web</h2>
 
@@ -118,22 +128,34 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+          <img src="firefox_logo-only_RGB.png"
+          alt="Firefox logo"
+          srcset = "firefox_logo-only_RGB400.png 400w,
+          firefox_logo-only_RGB120.png 120w"
+          sizes="(max-width: 500px) 120px, 400px">
         </a>
+
         <a href="https://www.mozilla.org/">
-          <img>
+          <img src="mozilla-dinosaur-head.png"
+          alt ="dinosaur head">
         </a>
+
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img src="firefox-addons.jpg"
+          alt="Firefox addons">
         </a>
+
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img src="mdn.svg"
+          alt = "MDN docs">
         </a>
+
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <img src="red-panda.jpg" alt = "panda">
       </div>
 
     </main>
