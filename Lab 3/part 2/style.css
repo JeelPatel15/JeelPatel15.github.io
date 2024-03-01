@@ -1,0 +1,35 @@
+/*
+    Name: Jeel Patel
+    File: style.css
+    Date: 28 Feb 2024
+    A cool box
+*/
+
+/* Apply styles to the entire HTML document */
+html {
+    font-family: sans-serif;
+  }
+  
+  /* Your CSS below here */
+  div {
+    width: 200px;
+    margin: auto;
+    line-height: 9;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    border: 1px solid #990000;
+    background-color: red;
+    background-image: linear-gradient(
+      to top left,
+      hsla(0, 0%, 0%, 0.2),
+      hsla(0, 0%, 0%, 0.2) 30%,
+      hsla(0, 0%, 0%, 0)
+    );  
+    box-shadow: 
+      inset 2px 2px 3px rgba(23, 14, 14, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6),
+      2px 2px 5px black;
+  }
